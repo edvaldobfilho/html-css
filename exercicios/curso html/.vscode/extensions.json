@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "tabnine.tabnine-vscode",
+        "esbenp.prettier-vscode",
+        "ritwickdey.liveserver",
+        "miramac.vscode-exec-node"
+    ]
+}

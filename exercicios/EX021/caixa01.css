@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+h1 {
+background-color: rgb(0, 255, 179);
+height: 100px;
+width: 400px;
+
+/*border: 20px solid darkgreen ; substitui as 3*/
+border-width: 20px;
+border-style: solid;
+border-color: darkgreen;
+
+/*padding: 10px 10px 10px 10px;simplifica*/
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+
+/*margin: 20px 20px 40px 20px  ; idem*/
+margin-top: 20px;
+margin-right: 20px;
+margin-bottom: 40px;
+margin-left: 20px;
+
+outline-width: 5px;
+outline-style: dashed;
+outline-color: rgb(180, 250, 114);
+}
+
+a {
+border-width: 8px;
+border-style: solid;
+border-color: red;
+
+padding-top: 5px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}

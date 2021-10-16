@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icones/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="links.css">
+    <title>Links</title>
+
+    <style>
+        body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color:red  ;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*--Pseudo classes: visited, hover, active--*/
+a:visited {
+    color: darkred;
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+    font-size: 20px;
+    font-style: italic;
+}
+a:active {
+    color: yellow;
+}
+/*-- Pseudo elementos= mexe no conteudo (periferia) ::after:--*/
+/*--- Abreviações: Seletores personalizados
+# = id
+. = class
+: = pseudo class
+:: = pseudo elementos
+> + children
+EX020\links.html(caminho relativo)
+D:\Projetos HTML&CCS\html-css\exercicios\EX020\links.html(caminho)
+*/
+
+a::after {
+    content:  ' link ';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
+a::before {
+    content: none;
+}
+ </style>
+
+  </head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io">Repositório GitHub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo">Canal do Youtube</a></li>
+        <li><a href="pseudoclasses.html" target="blank">Site do Cursoemvídeo</a></li>
+        <li><a href="hover.html" target="blank">Exercícios de HTML></a></li>
+        <li><a href="D:\Projetos HTML&CCS\html-css\exercicios\EX019\seletor01.html" target="blank">Seletores</a></li>
+        <li><a href="D:\Projetos HTML&CCS\html-css\exercicios\EX001\index.html" target="blank">Meu primeiro exercício EX001</a></li>
+        <li><a href="D:\Projetos HTML&CCS\html-css\exercicios\EX002\index.html" target="blank">Parágrafos EX002</a></li>
+        <li><a href="D:\Projetos HTML&CCS\html-css\exercicios\EX003\index.html" target="blank">Teste com Imagens EX003</a></li>
+        <li><a href="D:\Projetos HTML&CCS\html-css\exercicios\EX004\index.html" target="blank">Favicon EX004</a></li>
+        <li><a href="D:\Projetos HTML&CCS\html-css\exercicios\EX005\index.html" target="blank">Hierarquia de Títulos EX005</a></li>
+        <li><a href="D:\Projetos HTML&CCS\html-css\exercicios\EX006\index.html" target="blank">Semântica no HTML5 EX006</a></li>
+        <li><a href="D:\Projetos HTML&CCS\html-css\exercicios\EX008\index.html" target="blank">Formatação de Textos EX008</a></li>
+        <li><a href="D:\Projetos HTML&CCS\html-css\exercicios\EX009\index.html" target="blank">Listas OL e UL EX009</a></li>
+        <li><a href="D:\Projetos HTML&CCS\html-css\exercicios\EX010\index.html" target="blank">Trabalhando com Links EX010</a></li>
+        <li><a href="D:\Projetos HTML&CCS\html-css\exercicios\EX011\index.html"  target="blank">Mídias em HTML5 EX011</a></li>
+        <li><a href="D:\Projetos HTML&CCS\html-css\exercicios\EX012\index.html" target="blank">Vídeos com HTML5 Ex012</a></li>
+        <li><a href="D:\Projetos HTML&CCS\html-css\exercicios\EX013\index.html">Estilos Inline EX013</a></li>
+        <li><a href="D:\Projetos HTML&CCS\html-css\exercicios\EX014\index.html">Estilos Locais / Internos EX014</a></li>
+        <li><a href="D:\Projetos HTML&CCS\html-css\exercicios\EX015\index.html">Estilos Externos EX015</a></li>
+        <li><a href="D:\Projetos HTML&CCS\html-css\exercicios\EX016\cor01.html">Cores em CSS EX016</a></li>
+        <li><a href="D:\Projetos HTML&CCS\html-css\exercicios\EX017\fonte01.html">Fontes em CSS EX017</a></li>
+        <li><a href="D:\Projetos HTML&CCS\html-css\exercicios\EX019\seletor01.html">Seletores Personalizados EX019</a></li>
+       
+    </ul>
+</body>
+</html>

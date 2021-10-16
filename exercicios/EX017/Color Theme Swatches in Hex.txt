@@ -1,0 +1,62 @@
+/* Color Theme Swatches in Hex */
+.Aspirin-C-1-hex { color: #225378; }
+.Aspirin-C-2-hex { color: #1695A3; }
+.Aspirin-C-3-hex { color: #ACF0F2; }
+.Aspirin-C-4-hex { color: #F3FFE2; }
+.Aspirin-C-5-hex { color: #EB7F00; }
+
+/* Color Theme Swatches in RGBA */
+.Aspirin-C-1-rgba { color: rgba(33, 82, 119, 1); }
+.Aspirin-C-2-rgba { color: rgba(21, 148, 163, 1); }
+.Aspirin-C-3-rgba { color: rgba(171, 239, 242, 1); }
+.Aspirin-C-4-rgba { color: rgba(242, 255, 226, 1); }
+.Aspirin-C-5-rgba { color: rgba(234, 126, 0, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Aspirin-C-1-hsla { color: hsla(205, 56, 30, 1); }
+.Aspirin-C-2-hsla { color: hsla(186, 76, 36, 1); }
+.Aspirin-C-3-hsla { color: hsla(182, 73, 81, 1); }
+.Aspirin-C-4-hsla { color: hsla(84, 100, 94, 1); }
+.Aspirin-C-5-hsla { color: hsla(32, 100, 46, 1); }
+
+/* Color Theme Swatches in Hex */
+.Paleta-Interbank-1-hex { color: #185B9A; }
+.Paleta-Interbank-2-hex { color: #7A9FBF; }
+.Paleta-Interbank-3-hex { color: #3D9B54; }
+.Paleta-Interbank-4-hex { color: #5DA668; }
+.Paleta-Interbank-5-hex { color: #F2F2F2; }
+
+/* Color Theme Swatches in RGBA */
+.Paleta-Interbank-1-rgba { color: rgba(24, 91, 154, 1); }
+.Paleta-Interbank-2-rgba { color: rgba(122, 159, 191, 1); }
+.Paleta-Interbank-3-rgba { color: rgba(61, 155, 84, 1); }
+.Paleta-Interbank-4-rgba { color: rgba(93, 166, 104, 1); }
+.Paleta-Interbank-5-rgba { color: rgba(242, 242, 242, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Paleta-Interbank-1-hsla { color: hsla(209, 73, 34, 1); }
+.Paleta-Interbank-2-hsla { color: hsla(207, 35, 61, 1); }
+.Paleta-Interbank-3-hsla { color: hsla(134, 43, 42, 1); }
+.Paleta-Interbank-4-hsla { color: hsla(129, 29, 50, 1); }
+.Paleta-Interbank-5-hsla { color: hsla(0, 0, 94, 1); }
+
+/* Color Theme Swatches in Hex */
+.LOFT-REDUX-LMC-1-hex { color: #353D40; }
+.LOFT-REDUX-LMC-2-hex { color: #D9D9D9; }
+.LOFT-REDUX-LMC-3-hex { color: #A1A5A6; }
+.LOFT-REDUX-LMC-4-hex { color: #F2B138; }
+.LOFT-REDUX-LMC-5-hex { color: #003F63; }
+
+/* Color Theme Swatches in RGBA */
+.LOFT-REDUX-LMC-1-rgba { color: rgba(52, 61, 63, 1); }
+.LOFT-REDUX-LMC-2-rgba { color: rgba(216, 216, 216, 1); }
+.LOFT-REDUX-LMC-3-rgba { color: rgba(161, 165, 165, 1); }
+.LOFT-REDUX-LMC-4-rgba { color: rgba(242, 177, 56, 1); }
+.LOFT-REDUX-LMC-5-rgba { color: rgba(0, 63, 99, 1); }
+
+/* Color Theme Swatches in HSLA */
+.LOFT-REDUX-LMC-1-hsla { color: hsla(196, 9, 22, 1); }
+.LOFT-REDUX-LMC-2-hsla { color: hsla(0, 0, 85, 1); }
+.LOFT-REDUX-LMC-3-hsla { color: hsla(191, 2, 64, 1); }
+.LOFT-REDUX-LMC-4-hsla { color: hsla(39, 87, 58, 1); }
+.LOFT-REDUX-LMC-5-hsla { color: hsla(201, 100, 19, 1); }

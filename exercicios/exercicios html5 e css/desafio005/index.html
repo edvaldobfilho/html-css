@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logoea.ico" type="image/x-icon">
+    <title >Meus desafios HTML5</title>
+    <style> 
+    body{
+        background-color: cornsilk;
+    }
+    h1 {
+        color: blue;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+    }
+     h2{
+         color: cornflowerblue;
+         font-size: 20px;
+     } 
+     p{
+         font-size: 14px;
+         font-family: Arial, Helvetica, sans-serif;
+     }  
+    </style>
+</head>
+<body>
+    <h1>Minhas redes sociais</h1>
+    <h2>Quem sou eu?</h2>
+    <p><img src="foto2.jpg" alt=""></p>
+    <p>Meu nome é <strong><em><q><abbr title="25/05/1963">Edvaldo Filho</abbr></q></em>
+    </strong>, e sou técnico em informática.</p>
+    <h2>Como falar comigo?</h2>
+    <ul>
+        <li> <img src="imagensdesafio005/icone-youtube.png" alt=""><a href="https://gustavoguanabara.github.io" target="_blank">cursoemvideo</a>Venha me ver no Youtube</li>
+        <li> <img src="imagensdesafio005/icone-facebook.png" alt=""><a href="https://gustavoguanabara.github.io" target="_blank">cursoemvideo</a>Venha me ver no Facebook</li>
+        <li> <img src="imagensdesafio005/icone-github.png" alt=""><a href="https://gustavoguanabara.github.io" target="_blank">cursoemvideo</a>Venha me ver no Github.io</li>
+    </ul>
+        <p>Em HTML,  podemos inserir os elementos da lista a seguir. Passe o mouse sobre os termos para descobrir qual tag deverá utilizar em cada caso.
+            <ul type="square">
+                <li><abbr title="Use a tag p ">Parágrafo</abbr></li>
+                <li><abbr title="Use tag h">Títulos</abbr></li>
+                <li><abbr title="Use a tag img">Imagens</abbr></li>
+                <li><abbr title="">Abreviações</abbr></li>
+                <li><abbr title="Use a tag ol">Listas numeradas</abbr></li>
+                <li><abbr title="Use a tag ul">Listas com des marcadores</abbr></li>
+            </ul>
+        </p>
+        <h1>Imagem Flexível</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagensdesafio005/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagensdesafio005/paisagem-m.png" type="image/png">
+        <img src="imagensdesafio005/paisagem-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em <abbr title="HiperText"><em><strong><q>HTML5</q></strong></em></abbr>.</p>
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/happy-mistake-ex11.mp3" type="audio/mp3">
+        <source src="midia/guanacast-33.mp3" type="audio/mp3">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+    </audio>
+    <h1>Aúdio</h1>
+    <p>Reproduzir Aúdio </p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mp3">  
+         <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+         <source src="midia/guanacast-33.ogg" type="audio/ogg">
+         <source src="midia/guanacast-33.wav" type="audio/wav">   
+    </audio>
+  <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/guanacast-33.mp3 " target="_blank">Clique aqui para baixar o arquivo MP3</a></p>
+
+<h1>Aprendendo a assistir vídeo</h1>
+  <p>Vamos aprender como assistir Vídeo</p>
+  <video  width="290px" height="160" controls>
+    <source src="video/meu-video.mp4" type="video/mp4"/>
+</video>
+<h1>Outro</h1>
+<p> <img src="imagensdesafio005/cpor.ico" alt="">  Vídeo em Comemoração ao CPOR</p>
+<p>Escola de Hérois</p>
+    <video src="video/cpor.mp4" width="290px" height="160" controls>
+        <source src="video/cpor.mp4" type="video/mp4" >
+    </video>
+</body>
+</html>

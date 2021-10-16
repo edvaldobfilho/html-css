@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body {
+    width: 650px;
+    height: 800px;
+    background-color: chartreuse;
+}
+
+div {
+    background-color: black;
+    display: inline-block;
+    text-align:center ;
+    /*largura*/
+    width: 200px;
+    /*altura*/
+    height: 200px;
+    border: 1px  solid  black;
+    margin: 2px;
+}
+
+div:hover {
+background-color: yellow;
+}
+#primeiro {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#segundo {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#terceiro {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#quarto {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#quinto {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#sexto {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
